@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap");
+@import "tailwindcss";
+body {
+  font-family: "seekuw", sans-serif;
+  color: white;
+}
+
+.title-font {
+  font-family: "Cinzel Decorative", serif;
+}
+
+.tagline-font {
+  font-family: "Playfair Display", serif;
+}
+/* seekuw - for Headings */
+@font-face {
+  font-family: "seekuw";
+  src: url("/fonts/seekuw-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Neue Einstellung - for Taglines */
+@font-face {
+  font-family: "Neue Einstellung";
+  src: url("/fonts/uni_neue/UniNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* nourd - for Body/Sub-menu */
+@font-face {
+  font-family: "nourd";
+  src: url("/fonts/Nourd Font/Nourd-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  /* font-family: "Ruslan Display", sans-serif; */
+  font-weight: 400;
+  font-style: normal; 
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
